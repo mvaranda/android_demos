@@ -19,4 +19,6 @@ App was prepared for Algonquin College class in Winter 2018.
 
 Video Tutorial [here](https://rumble.com/vnqdpl-android-custom-view.html)
 
+![App snapshot](images/CustomView.png)
+
 
