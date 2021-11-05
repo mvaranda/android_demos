@@ -205,6 +205,8 @@ public class ArtistFetch extends AsyncTask<String, String, ArtistFetch.Artists> 
                     url.openConnection();
             //set timeout for reading InputStream
             cc.setReadTimeout(15000);
+            // auto-ridirection
+            cc.setInstanceFollowRedirects(true);
             // set timeout for connection
             cc.setConnectTimeout(15000);
             //set HTTP method to GET

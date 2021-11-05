@@ -44,8 +44,8 @@ public class JPlayerDemoMain extends AppCompatActivity implements ArtistFetch.Ar
     ArtistFetch artist_fetcher;
     ArtistFetch.Artists parsed_artists;
 
-    final String jamendo_base_url = "http://api.jamendo.com/v3.0/artists/tracks?client_id=";
-    final String jamendo_user_id = "xxxxxxx"; // please use your own ID. Get it free from: https://devportal.jamendo.com/
+    final String jamendo_base_url = "https://api.jamendo.com/v3.0/artists/tracks?client_id=";
+    final String jamendo_user_id = "xxxxxxxx"; // please use your own ID. Get it free from: https://devportal.jamendo.com/
     final String jamendo_options = "&format=xml&limit=20&offset=";
     int offset = 0;
     int offset_increment = 20;
